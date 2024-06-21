@@ -45,5 +45,5 @@ trained on smaller datasets. Only way to resolve this is to use a "stop sequence
 
 
 # Result
-[The Great Gatsby by F. Scott Fitzgerald](great_gatsby.docx)
+As a sample, I've summarized a public domain book, [The Great Gatsby by F. Scott Fitzgerald](great_gatsby.docx).
 
