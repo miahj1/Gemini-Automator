@@ -51,7 +51,11 @@ They needed a way to automate the entire process and format everything inside a 
 </details>
 
 # Selenium Automation in Action
-
+<div align="left">
+      <a href="https://www.youtube.com/watch?v=tosTys7ThKg">
+         <img src="https://github.com/miahj1/Gemini-Automator/assets/84815985/aad89dd7-3492-4639-87ad-7b018fd42ec2" style="width:50%;">
+      </a>
+</div>
 
 # Result
 As a sample, I've summarized a public domain book: [The Great Gatsby by F. Scott Fitzgerald](great_gatsby.docx).
