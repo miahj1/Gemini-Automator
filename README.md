@@ -7,7 +7,7 @@
 </div>
 <br>
 
-Google's Gemini is a chatbot with a free and premium ($20/month) option similiar to ChatGPT's model. 
+Google's Gemini is a chatbot with a free and premium tier. 
 It has a friendly interface and larger token inputs, allowing for longer requests. 
 
 **Disclaimer** No code is shared in this repository, only a video visualizing the automation process.
