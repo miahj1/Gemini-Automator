@@ -25,21 +25,30 @@ It has a friendly interface and larger token inputs, allowing for longer request
 The client needed a way to summarize passages for books using Gemini for their business: the current method they were using was manually processing an entire novel.
 They needed a way to automate the entire process and format everything inside a Word document.
 
-**Why not use the API?**<br>
+<details>
+  <summary><b>Why wasn't the API used?</b></summary>
+  <p>
+    The Python API for Gemini is riddled with problems: there are random disconnections from the server every few seconds. 
+    There's a hidden filter that blocks promptsthat it considers to be "violent" or breaks its rules--even after turning off all the blocking filter: this doesn't
+    happen in the GUI where instead a prompt is produced but a caution symbol shows above it.
+  </p>
+</details>
 
-The Python API for Gemini is riddled with problems: there are random disconnections from the server every few seconds. 
-There's a hidden filter that blocks promptsthat it considers to be "violent" or breaks its rules--even after turning off all the blocking filter: this doesn't
-happen in the GUI where instead a prompt is produced but a caution symbol shows above it.
+<details>
+  <summary><b>Why did you choose to use Gemini instead of any other model?</b></summary>
+  <p>
+  Gemini's 1.5 Pro model right now has 1 million context length, allowing for holding huge amounts of tokens in memory.
+  </p>
+</details>
 
-**Why use Gemini?**<br>
-
-Gemini's 1.5 Pro model right now has 1 million context length, allowing for holding huge amounts of tokens in memory.
-
-**Isn't the Flash model better?**<br>
-
-The 1.5 Flash model has been trained on a smaller dataset which causes issues where it can bug out during the prompting process: 
-there was an instance where it would spam the entire chat with a single phrase infinitely which has been shown to be an issue with models
-trained on smaller datasets. Only way to resolve this is to use a "stop sequence".
+<details>
+  <summary><b>Isn't the Flash model better?</b></summary>
+  <p>
+    The 1.5 Flash model has been trained on a smaller dataset which causes issues where it can bug out during the prompting process: 
+    there was an instance where it would spam the entire chat with a single phrase infinitely which has been shown to be an issue with models
+    trained on smaller datasets. Only way to resolve this is to use a "stop sequence".
+  </p>
+</details>
 
 # Selenium Automation in Action
 
