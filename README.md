@@ -1,7 +1,7 @@
 # Google's Gemini Automator
 
 <div align="center">
-    <picture><img alt="gemini ai logo" src="https://github.com/miahj1/Gemini-Automator/assets/84815985/7be714fb-9a19-4502-b47e-90c16cd03f98"></picture>
+    <picture><img alt="gemini ai logo" src="https://github.com/miahj1/Gemini-Automator/assets/84815985/5c55e4fc-9055-4a67-a70f-5f9df450346d"></picture>
     <br>
     <div align="center"><a href="https://aistudio.google.com/app/">Homepage</a></div>
 </div>
